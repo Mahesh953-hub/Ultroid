@@ -1,2 +1,2 @@
 import os
-os.system('bash */startup')
+os.system('bash startup')
