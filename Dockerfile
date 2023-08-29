@@ -8,7 +8,7 @@ FROM theteamultroid/ultroid:main
 # set timezone
 ENV TZ=Asia/Kolkata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-
+PORT=8080
 COPY installer.sh .
 
 RUN bash installer.sh
