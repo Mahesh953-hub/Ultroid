@@ -1,0 +1,1 @@
+os.system('bash */startup')
